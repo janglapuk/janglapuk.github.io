@@ -1,0 +1,13 @@
+
+http://janglapuk.github.io/404.html
+http://janglapuk.github.io/about.html
+http://janglapuk.github.io/archive.html
+http://janglapuk.github.io/atom.xml
+http://janglapuk.github.io/categories.html
+http://janglapuk.github.io/index.html
+http://janglapuk.github.io/rss.xml
+http://janglapuk.github.io/search.html
+http://janglapuk.github.io/sitemap.txt
+http://janglapuk.github.io/tags.html
+
+http://janglapuk.github.io/blog/2014/11/22/hello-world
