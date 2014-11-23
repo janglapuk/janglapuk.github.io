@@ -5,21 +5,21 @@
         <description>janglapuk - Abi Jafar</description>
         <link>http://janglapuk.github.io</link>
         <link>http://janglapuk.github.io</link>
-        <lastBuildDate>2014-11-22T17:52:59+08:00</lastBuildDate>
-        <pubDate>2014-11-22T17:52:59+08:00</pubDate>
+        <lastBuildDate>2014-11-23T12:26:21+08:00</lastBuildDate>
+        <pubDate>2014-11-23T12:26:21+08:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>Hello World</title>
-                <description>&lt;p&gt;Lagi-lagi suatu kata ajaib bagi seseorang blogger &lt;s&gt;aneh&lt;/s&gt; mengungkapkan betapa basinya menulis kata permulaan hanya untuk sebuah &lt;em&gt;posting&lt;/em&gt;-an. &lt;code&gt;:P&lt;/code&gt;&lt;/p&gt;
+                <description>&lt;p&gt;Lagi-lagi suatu kata ajaib bagi seseorang blogger &lt;s&gt;aneh&lt;/s&gt; mengungkapkan betapa basinya menulis kata permulaan seperti &lt;em&gt;Hello World&lt;/em&gt; hanya untuk sebuah &lt;em&gt;posting&lt;/em&gt;-an. &lt;code&gt;:P&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Kali ini aku benar-benar wajib tahu sintaks &lt;em&gt;markdown&lt;/em&gt; yang selama ini aku tidak pedulikan, supaya isi blog ini tidak hanya diisi tulisan &lt;em&gt;unformatted style&lt;/em&gt; yang basi, yang bisa membuat mata ini lebih &lt;em&gt;minus&lt;/em&gt; (halah!).&lt;/p&gt;
+&lt;p&gt;Untuk nge-blog kali ini, aku benar-benar wajib tahu sintaks &lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Markdown&quot;&gt;markdown&lt;/a&gt;&lt;/strong&gt; yang selama ini &lt;s&gt;aku tidak pedulikan&lt;/s&gt; kurang tertarik aku gunakan, supaya isi blog ini tidak hanya diisi tulisan &lt;em&gt;unformatted style&lt;/em&gt; yang basi, yang bisa membuat mata ini lebih &lt;em&gt;minus&lt;/em&gt; (halah!).&lt;/p&gt;
 
 &lt;!--more--&gt;
-&lt;p&gt;Oh ya, blog (kali) ini hanya sebuah blog &lt;em&gt;static page&lt;/em&gt; yang dibantu oleh &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt; sebagai &lt;em&gt;generator&lt;/em&gt;-nya. Entah kenapa dunia ini pada akhirnya berjalan mundur setelah puncaknya perkembangan &lt;em&gt;website&lt;/em&gt;. Yang mana saat ini blog sudah tidak dapat dihitung berjalan secara &lt;em&gt;dynamic&lt;/em&gt; dengan banyaknya aplikasi-aplikasi blog dengan berbagai macam bahasa pemrograman, eh…, sekarang orang-orang &lt;s&gt;aneh&lt;/s&gt; malah membuatnya mundur ke belakang, menulis dalam bentuk &lt;em&gt;plain-text markdown&lt;/em&gt;, kemudian di-&lt;em&gt;generate&lt;/em&gt; menjadi suatu halaman statik. Agak bingung juga, ini suatu perkembangan atau malah suatu kemunduran?&lt;/p&gt;
+&lt;p&gt;Oh ya, blog (kali) ini hanya sebuah blog &lt;em&gt;static page&lt;/em&gt; yang dibantu oleh &lt;strong&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt;&lt;/strong&gt; sebagai &lt;em&gt;generator&lt;/em&gt;-nya. Entah kenapa dunia ini pada akhirnya berjalan mundur setelah puncaknya perkembangan &lt;em&gt;website&lt;/em&gt;. Yang mana saat ini blog sudah tidak dapat dihitung berjalan secara &lt;em&gt;dynamic&lt;/em&gt; dengan banyaknya aplikasi-aplikasi blog dengan berbagai macam bahasa pemrograman, eh…, sekarang orang-orang &lt;s&gt;aneh&lt;/s&gt; malah membuatnya mundur ke belakang, menulis dalam bentuk &lt;em&gt;plain-text markdown&lt;/em&gt;, kemudian di-&lt;em&gt;generate&lt;/em&gt; menjadi suatu halaman statik. Agak bingung juga, ini suatu perkembangan atau malah suatu kemunduran?&lt;/p&gt;
 
-&lt;p&gt;Justru alasan itulah yang membuat blog ini muncul, modal ikut-ikutan biar dibilang keren atau &lt;em&gt;a geek&lt;/em&gt; (padahal nggak &lt;code&gt;:D&lt;/code&gt;). Tetapi selain itu, dari sekian banyaknya blog &lt;s&gt;basi&lt;/s&gt; saya yang berjalan secara &lt;em&gt;dynamic&lt;/em&gt;, kemudian mati karena gak sanggup bayar hosting, di-&lt;em&gt;hack&lt;/em&gt;, domain yang &lt;em&gt;expired&lt;/em&gt;, atau sangking tidak memiliki koneksi internet yang mumpuni untuk hanya membuka sebuah halaman &lt;a href=&quot;http://www.blogger.com&quot;&gt;blogspot&lt;/a&gt; yang memuat kode HTML &lt;em&gt;bejibun&lt;/em&gt;, sehingga inilah suatu nilai lebih blog dengan halaman statik. Yeey!&lt;/p&gt;
+&lt;p&gt;Justru alasan itulah yang membuat blog ini muncul, modal ikut-ikutan biar dibilang keren atau &lt;em&gt;geek&lt;/em&gt; (padahal nggak &lt;code&gt;:D&lt;/code&gt;). Tetapi selain itu, dari sekian banyaknya blog &lt;s&gt;basi&lt;/s&gt; saya yang berjalan secara &lt;em&gt;dynamic&lt;/em&gt;, kemudian mati karena gak sanggup bayar hosting, di-&lt;em&gt;hack&lt;/em&gt;, domain yang &lt;em&gt;expired&lt;/em&gt;, atau sangking tidak memiliki koneksi internet yang mumpuni untuk hanya membuka sebuah halaman &lt;a href=&quot;http://www.blogger.com&quot;&gt;blogspot&lt;/a&gt; yang memuat kode HTML &lt;em&gt;bejibun&lt;/em&gt;, sehingga inilah suatu nilai lebih blog dengan halaman statik. Yeey!&lt;/p&gt;
 
 &lt;p&gt;Akhir kata, semoga ada aja orang &lt;s&gt;aneh yang mau&lt;/s&gt; membaca blog ini. &lt;code&gt;:P&lt;/code&gt;&lt;/p&gt;
 

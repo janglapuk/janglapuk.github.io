@@ -1,2 +1,0 @@
-janglapuk.github.io
-===================
