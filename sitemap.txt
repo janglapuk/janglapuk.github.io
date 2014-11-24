@@ -1,13 +1,14 @@
 
-http://janglapuk.github.io/404.html
-http://janglapuk.github.io/about.html
-http://janglapuk.github.io/archive.html
-http://janglapuk.github.io/atom.xml
-http://janglapuk.github.io/categories.html
-http://janglapuk.github.io/index.html
-http://janglapuk.github.io/rss.xml
-http://janglapuk.github.io/search.html
-http://janglapuk.github.io/sitemap.txt
-http://janglapuk.github.io/tags.html
+https://janglapuk.github.io/404.html
+https://janglapuk.github.io/about.html
+https://janglapuk.github.io/archive.html
+https://janglapuk.github.io/atom.xml
+https://janglapuk.github.io/categories.html
+https://janglapuk.github.io/index.html
+https://janglapuk.github.io/rss.xml
+https://janglapuk.github.io/search.html
+https://janglapuk.github.io/sitemap.txt
+https://janglapuk.github.io/tags.html
 
-http://janglapuk.github.io/blog/2014/11/22-hello-world.html
+https://janglapuk.github.io/blog/2014/11/24-jekyll-di-windows.html
+https://janglapuk.github.io/blog/2014/11/22-hello-world.html

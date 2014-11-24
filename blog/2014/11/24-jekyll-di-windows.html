@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Jekyll di Windows &laquo; janglapuk</title>
+    
+	
+	<meta name="author" content="Abi Jafar">
+	
+	<link rel="stylesheet" href="/assets/themes/Snail/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/main.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/pages/journal.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/team.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/static.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/css/errors.css">
+	<link rel="stylesheet" href="/assets/themes/Snail/google-code-prettify/prettify.css">
+	
+	<link rel="shortcut icon" href="/assets/themes/Snail/img/favicon.ico">
+	
+	<script type="text/javascript" src="/assets/themes/Snail/js/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="/assets/themes/Snail/js/auto_loadmore.js"></script>
+	
+	<script type="text/javascript" src="/assets/themes/Snail/google-code-prettify/prettify.js"></script>
+	
+	<script type="text/javascript">
+	  $(function(){
+		$("pre code").addClass("prettyprint linenums");
+		prettyPrint();
+	  });
+	</script>
+	
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+</head>
+<body>
+	<noscript>
+		&amp;lt;div id="no-js"&amp;gt;Please enable JavaScript in your browser to experience / fully&amp;lt;/div&amp;gt;
+	</noscript>
+    <div id="page-container">
+		<div>
+			<nav>
+	<div id="nav-l">
+	</div>
+	<div id="nav-c">
+		<ul id="nav-list" style="width: 700px;">
+			<li id="home"><a href="/">Home</a></li>
+			
+			
+			
+				
+				  
+				
+			 
+				
+				  
+					
+					<li id = "About Me"><a href="/about.html">About Me</a></li>
+					
+				  
+				
+			 
+				
+				  
+					
+					<li id = "Archive"><a href="/archive.html">Archive</a></li>
+					
+				  
+				
+			 
+				
+				  
+				
+			 
+				
+				  
+					
+					<li id = "Categories"><a href="/categories.html">Categories</a></li>
+					
+				  
+				
+			 
+				
+			 
+				
+				  
+				
+			 
+				
+				  
+				
+			 
+				
+				  
+				
+			 
+				
+				  
+					
+					<li id = "Tags"><a href="/tags.html">Tags</a></li>
+					
+				  
+				
+			 
+			
+			
+		</ul>
+		<form id="nav-search" method="GET" action="/search.html">
+			<div id="search-right-pix">
+				<div id="search-left-pix">
+					<div id="search-center-pix">
+						<div id="search-icon-pix"></div>
+						<input name="query" type="text" placeholder="Search">
+					</div>
+				</div>
+			</div>
+		</form>
+		
+		
+	</div>
+	<div id="nav-r">
+	</div>
+</nav>
+			<div id="page-content">
+				
+<div id="page-content">
+	<div class="cont932">
+	<div id="journal-articles-block">
+		<div class="journal-article">
+			<div class="journal-post-info">
+				<div class="journal-cat-box">
+				
+				
+				<div class="journal-cat-box">
+
+<a href="/categories.html#blog-ref" title="blog">
+	blog
+
+</a>
+</div>
+				
+				</div>
+			</div>
+			<div class="journal-body">
+				<h1 class="journal-title">Jekyll di Windows<span class="author"></span>
+				</h1>
+				<span class="the-article">
+				<p>Dalam keseharian, aku menggunakan Mac untuk kegiatan yang berhubungan dengan internet, termasuk untuk meng-<em>update</em> blog ini menggunakan <a href="http://www.jekyllrb.com">jekyll</a>. Hanya saja, sesekali PC Windows-lah yang aku gunakan. Meng-<em>install</em> jekyll di Mac sudah tidak terlalu masalah bagiku, karena <strong><a href="http://www.ruby-lang.org" title="Ruby Website">ruby</a></strong> yang digunakan jekyll sebagai <em>interpreter</em> di Mac, sudah ter-<em>include</em> secara <em>default</em>. Beda halnya jika di lingkungan Windows.</p>
+
+<!--more-->
+<p>Tidak usah banyak kata-kata lagi, berikut ini langkah menggunakan jekyll di Windows:</p>
+
+<h2 id="ruby">1. Ruby</h2>
+<p>Karena jekyll menggunakan ruby sebagai bahasa pemrogramnya, langkah utama yang perlu dilakukan adalah memasang ruby pada PC Windows.</p>
+
+<p>Secara resmi, <em>website</em> ruby adalah <code>https://www.ruby-lang.org</code>. Hanya saja jika anda berniat menggunakan ruby di lingkungan Windows, maka anda harus ke <em>website</em> <code>http://rubyinstaller.org/downloads/</code> untuk mengunduhnya, kemudian unduh <code>rubyinstaller-2.1.5.exe</code> untuk mesin berarsitektur <strong>32 bit</strong>, atau <code>rubyinstaller-2.1.5-x64.exe</code> jika berarsitektur <strong>64 bit</strong>. 
+<img src="/img/ruby-links-01.jpg" alt="ruby-links-01.jpg" /></p>
+
+<p>Kemudian, lakukan proses pemasangan dengan ketentuan seperti di bawah ini:</p>
+
+<p><img src="/img/ruby-install-01.jpg" alt="ruby-install-01.jpg" /></p>
+
+<p><strong>Pastikan</strong> bahwa opsi seperti tanda gambar di atas benar-benar dicentang (<em>checked</em>).</p>
+
+<h2 id="ruby-development-kit-devkit">2. Ruby Development Kit (DevKit)</h2>
+<p>Langkah berikutnya adalah mengunduh Ruby Development Kit di halaman website yang sama, yaitu <code>http://rubyinstaller.org/downloads/</code>. Sama seperti disampaikan sebelumnya, sesuaikan dengan arsitektur prosesor pada PC anda.
+<img src="/img/ruby-devkit-links-01.jpg" alt="ruby-devkit-links-01.jpg" /></p>
+
+<p>Jalankan installer tersebut dan arahkan ke lokasi tujuan <em>extract</em> yang mudah untuk ditemukan, seperti <code>C:\RubyDevKit</code>.</p>
+
+<p>Kemudian, lakukan proses berikut menggunakan <em>command prompt</em> untuk jalankan perintah berikut:</p>
+
+<pre><code>cd C:\RubyDevKit
+ruby dk.rb init
+ruby dk.rb install
+</code></pre>
+
+<p>Dari proses perintah di atas, setidaknya hasilnya kurang lebih seperti gambar di bawah ini:</p>
+
+<p><img src="/img/ruby-devkit-initialize-02.jpg" alt="ruby-devkit-initialize-02.jpg" /></p>
+
+<h2 id="jekyll">3. Jekyll</h2>
+<p>Langkah berikut ini adalah memasang program jekyll pada PC anda, hanya saja anda tidak perlu mengunduhnya pada website tertentu, cukup menggunakan salah satu aplikasi bawaan ruby yaitu <a href="http://en.wikipedia.org/wiki/RubyGems" title="RubyGems">RubyGem</a> (perintah: <code>gem</code>).</p>
+
+<p>Dengan menggunakan <em>command prompt</em>, silakan jalankan perintah berikut:</p>
+
+<pre><code>gem install jekyll
+</code></pre>
+
+<p>Proses akan memakan waktu cukup lama, tergantung dari kecepatan koneksi internet anda. Proses mengunduh dan memasang jekyll kurang lebih seperti ini:</p>
+
+<p><img src="/img/ruby-gem-install-jekyll-01.jpg" alt="ruby-gem-install-jekyll-01.jpg" /></p>
+
+<h2 id="rouge">4. Rouge</h2>
+<p>Kemudian, dalam menggunakan jekyll anda wajib menggunakan <a href="http://daringfireball.net/projects/markdown/" title="Markdown project">Markdown</a> untuk mempercantik tulisan anda. Tentunya akan banyak kode-kode program yang akan anda selipkan nantinya. Karena itu, rouge memiliki peran sebagai <em>beautifier</em> kode-kode anda (<em>syntax highlighter</em>).</p>
+
+<p>Sebenarnya, secara <em>default</em> jekyll menggunakan <strong><a href="http://pygments.org/" title="Pygments">Pygments</a></strong> sebagai <em>syntax highlighter</em>. Hanya saja untuk menggunakan Pygments, anda perlu memasang <strong><a href="https://www.python.org/" title="Python">Python</a></strong> agar dapat menggunakannya. Aku pikir itu saat ini Rouge yang paling cocok digunakan karena tidak memerlukan berbagai macam dependensi seperti halnya Pygments.</p>
+
+<p>Untuk memasang Rouge, lakukan langkah seperti memasang jekyll, yaitu dengan menggunakan <code>gem</code> pada <em>command prompt</em>:</p>
+
+<pre><code>gem install rouge
+</code></pre>
+
+<p><strong>Catatan</strong>: Nantinya setelah sebuah <em>project</em> dibuat, anda cukup mengubah/menambahkan satu entri pada file <code>&lt;project-name&gt;\_config.yml</code>, yaitu pada entri:</p>
+
+<pre><code>highlighter: rouge
+</code></pre>
+
+<h2 id="wdm">5. WDM</h2>
+<p>Secara default, jekyll memiliki fitur <em>auto-regeneration</em> yang secara otomatis memantau (<em>watch</em>) perubahan <em>source</em> pada jekyll dan kemudian <em>re-build</em> situs (site) anda.</p>
+
+<p>Namun pada Windows, anda perlu memasang satu alat tambahan yaitu <code>wdm</code>. Dengan menggunakan perintah berikut:</p>
+
+<pre><code>gem install wdm
+</code></pre>
+
+<h2 id="run">6. Run!</h2>
+<p>Akhirnya, kita sudah berada di langkah terakhir, yaitu mencoba membuat dan menjalankan <em>website</em> menggunakan jekyll.</p>
+
+<p>Anggap saja anda memiliki sebuah direktori khusus untuk membuat project anda dengan jekyll. Di sini saya  menyatakan direktori project adalah <code>D:\project\website</code>. Silakan anda sesuaikan sesuai kebutuhan anda.</p>
+
+<p>Pada <em>command prompt</em> anda, lakukan perintah berikut:</p>
+
+<pre><code>D:
+cd D:\project\website
+</code></pre>
+
+<p><img src="/img/cmd-change-dir-01.jpg" alt="cmd-change-dir-01.jpg" /></p>
+
+<p>Kemudian, buatlah satu <em>project</em> dengan nama <code>myblog</code> dengan menggunakan jekyll pada <em>command prompt</em>:</p>
+
+<pre><code>jekyll new myblog
+</code></pre>
+
+<p><img src="/img/cmd-create-new-project-02.jpg" alt="cmd-create-new-project-02.jpg" /></p>
+
+<p>Maka akan ada sebuah direktori dengan nama <code>myblog</code> di dalam <em>root</em> direktori <em>project</em> anda.</p>
+
+<p><img src="/img/cmd-listing-dir-03.jpg" alt="cmd-listing-dir-03.jpg" /></p>
+
+<p>Kemudian, masuklah ke dalam direktori <code>myblog</code>, dan jalankan project tersebut menggunakan jekyll dengan perintah:</p>
+
+<pre><code>cd myblog
+jekyll serve
+</code></pre>
+
+<p><img src="/img/cmd-jekyll-serve-04.jpg" alt="cmd-jekyll-serve-04.jpg" /></p>
+
+<p>Pada gambar:</p>
+
+<p><code>Destination</code> adalah letak <em>file-file</em> HTML (statik) yang telah di-<em>generate</em> otomatis oleh jekyll. Isi pada direktori inilah yang perlu anda unggah ke server hosting anda.</p>
+
+<p><code>Server address</code> inilah URL lingkungan <em>development</em> anda, seperti gambar di bawah:</p>
+
+<p><img src="/img/cmd-jekyll-run-on-localhost-05.jpg" alt="cmd-jekyll-run-on-localhost-05.jpg" /></p>
+
+<h2 id="post">7. Post</h2>
+<p>Berikut ini mungkin hanya sebagai tambahan saja, bagaimana membuat sebuah <em>post</em> pada jekyll. Yang anda perlukan hanyalah pengetahuan tentang sintaks pada Markdown dan format penamaan sebuah <em>file post</em>. (Untuk mengetahui bagaimana sintaks pada Markdown, silakan periksa pada bagian <a href="#referensi">Referensi</a> di bawah.)</p>
+
+<p><strong>Sebagai contoh:</strong> Gunakan <em>text editor</em> kesayangan anda, kemudian buatlah tampak seperti di bawah ini:</p>
+
+<pre><code>---
+layout: post
+title:  "Post Pertama"
+date:   2014-11-24 13:50:00 +0800
+categories: Blog
+tags: jekyll hello-world
+---
+Ini adalah halaman *post* saya yang pertama menggunakan **jekyll**.
+</code></pre>
+
+<p>Simpanlah file tersebut di direktori <code>myblog\_posts</code> dengan format file <code>tahun-bulan-tanggal-judul.markdown</code> seperti:</p>
+
+<p><code>2014-11-24-post-pertama.markdown</code>.</p>
+
+<p>Kemudian, silakan <em>refresh</em> halaman blog anda, secara otomatis jekyll akan meng-<em>update</em> setiap perubahan pada <em>file-file project</em> anda.</p>
+
+<p><img src="/img/jekyll-first-post-01.jpg" alt="jekyll-first-post-01.jpg" /></p>
+
+<p><img src="/img/jekyll-first-post-02.jpg" alt="jekyll-first-post-02.jpg" /></p>
+
+<h2 id="penutup">Penutup</h2>
+<p>Demikian yang bisa aku bagi saat ini, sila berikan komentar apapun terkait <em>post</em> ini.</p>
+
+<h2 id="a-namereferensiareferensi"><a name="referensi"></a>Referensi</h2>
+<ul>
+  <li><a href="http://jekyll-windows.juthilo.com/" title="Run Jekyll on Windows">Run Jekyll on Windows</a></li>
+  <li><a href="http://assemble.io/docs/Cheatsheet-Markdown.html" title="Markdown Cheatsheet">Markdown Cheatsheet</a></li>
+</ul>
+
+
+				</span>
+				<div class="journal-date">Published 24 November 2014</div>
+				<div class="journal-tags">
+				
+				
+	 
+		<a class="tag-cont" href="/tags.html#jekyll-ref">
+			<div class="tag-l"></div>
+			<div class="tag-c">jekyll</div>
+			<div class="tag-r"></div>
+		</a>
+	 
+		<a class="tag-cont" href="/tags.html#how-to-ref">
+			<div class="tag-l"></div>
+			<div class="tag-c">how-to</div>
+			<div class="tag-r"></div>
+		</a>
+	
+
+
+
+				</div>
+			</div>
+		</div>
+		<div class="clearboth"></div>
+	</div>
+</div>
+	<div class="clearboth"></div>
+	
+
+
+  <!-- START: Livefyre Embed -->
+<div id="livefyre-comments"></div>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+<script type="text/javascript">
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: "livefyre.com",
+        siteId: "368123",
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+</script>
+<!-- END: Livefyre Embed -->
+
+
+
+	<div class="clearboth"></div>
+</div>
+
+			</div>
+			<div class="clearboth pagebottom"></div>
+		</div>
+	</div>
+	<footer>
+	<div class="footer-940">
+		<div class="footer-general-info">
+			© 2014 Abi Jafar.<br><br>
+			Content licensed under:<br>
+			<a class="cc" href="http://creativecommons.org/licenses/by-sa/3.0/">c a b</a><br>
+			<a href = "/about.html">About Me</a><br>
+		</div>
+		<div class="footer-col-cont">
+			<div class="footer-nav-col">
+				<h4><a>Categories</a></h4>
+				<ul>
+					
+					
+
+
+  
+     
+    	<li><a href="/categories.html#blog-ref">
+    		blog <span>2</span>
+    	</a></li>
+    
+  
+
+
+				</ul>
+			</div>
+			<div class="footer-nav-col">
+				<h4><a>Pages</a></h4>
+				<ul>
+					
+					
+					
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/about.html">About Me</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+				</ul>
+			</div>
+			<div class="footer-nav-col">
+				<h4><a>Feed</a></h4>
+				<ul>
+					<li><a href="/atom.xml">Atom Feed</a></li>
+					<li><a href="/rss.xml">RSS Feed</a></li>
+				</ul>
+			</div>
+			<div class="footer-nav-col">
+				<h4><a>Links</a></h4>
+				<ul>
+				 
+					<li><a href = "https://janglapuk.github.io/">Janglapuk's Blog</a></li>
+				
+				</ul>
+			</div>
+			<div class="footer-nav-col">
+				<h4><a href = "/about.html">About Me</a></h4>
+				<ul>
+				 
+					<li><a href = "mailto:abi.jafar@gmail.com">e-mail</a></li>
+				 
+					<li><a href = "https://github.com/janglapuk">Github</a></li>
+				
+				</ul>
+			</div>
+			<div class="clearboth"></div>
+		</div>
+		<div class="clearboth"></div>
+	</div>
+	<div class="clearboth"></div>
+</footer>
+	
+</body>
+</html>
+

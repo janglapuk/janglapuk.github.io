@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>janglapuk</title>
- <link href="http://janglapuk.github.io/" rel="self"/>
- <link href="http://janglapuk.github.io"/>
- <updated>2014-11-24T13:22:12+08:00</updated>
- <id>http://janglapuk.github.io</id>
+ <link href="https://janglapuk.github.io/" rel="self"/>
+ <link href="https://janglapuk.github.io"/>
+ <updated>2014-11-24T16:44:14+08:00</updated>
+ <id>https://janglapuk.github.io</id>
  <author>
    <name>Abi Jafar</name>
    <email></email>
@@ -13,10 +13,161 @@
 
  
  <entry>
+   <title>Jekyll di Windows</title>
+   <link href="https://janglapuk.github.io/blog/2014/11/24-jekyll-di-windows.html"/>
+   <updated>2014-11-24T13:50:00+08:00</updated>
+   <id>https://janglapuk.github.io/blog/2014/11/jekyll-di-windows</id>
+   <content type="html">&lt;p&gt;Dalam keseharian, aku menggunakan Mac untuk kegiatan yang berhubungan dengan internet, termasuk untuk meng-&lt;em&gt;update&lt;/em&gt; blog ini menggunakan &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;. Hanya saja, sesekali PC Windows-lah yang aku gunakan. Meng-&lt;em&gt;install&lt;/em&gt; jekyll di Mac sudah tidak terlalu masalah bagiku, karena &lt;strong&gt;&lt;a href=&quot;http://www.ruby-lang.org&quot; title=&quot;Ruby Website&quot;&gt;ruby&lt;/a&gt;&lt;/strong&gt; yang digunakan jekyll sebagai &lt;em&gt;interpreter&lt;/em&gt; di Mac, sudah ter-&lt;em&gt;include&lt;/em&gt; secara &lt;em&gt;default&lt;/em&gt;. Beda halnya jika di lingkungan Windows.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;Tidak usah banyak kata-kata lagi, berikut ini langkah menggunakan jekyll di Windows:&lt;/p&gt;
+
+&lt;h2 id=&quot;ruby&quot;&gt;1. Ruby&lt;/h2&gt;
+&lt;p&gt;Karena jekyll menggunakan ruby sebagai bahasa pemrogramnya, langkah utama yang perlu dilakukan adalah memasang ruby pada PC Windows.&lt;/p&gt;
+
+&lt;p&gt;Secara resmi, &lt;em&gt;website&lt;/em&gt; ruby adalah &lt;code&gt;https://www.ruby-lang.org&lt;/code&gt;. Hanya saja jika anda berniat menggunakan ruby di lingkungan Windows, maka anda harus ke &lt;em&gt;website&lt;/em&gt; &lt;code&gt;http://rubyinstaller.org/downloads/&lt;/code&gt; untuk mengunduhnya, kemudian unduh &lt;code&gt;rubyinstaller-2.1.5.exe&lt;/code&gt; untuk mesin berarsitektur &lt;strong&gt;32 bit&lt;/strong&gt;, atau &lt;code&gt;rubyinstaller-2.1.5-x64.exe&lt;/code&gt; jika berarsitektur &lt;strong&gt;64 bit&lt;/strong&gt;. 
+&lt;img src=&quot;/img/ruby-links-01.jpg&quot; alt=&quot;ruby-links-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kemudian, lakukan proses pemasangan dengan ketentuan seperti di bawah ini:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ruby-install-01.jpg&quot; alt=&quot;ruby-install-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pastikan&lt;/strong&gt; bahwa opsi seperti tanda gambar di atas benar-benar dicentang (&lt;em&gt;checked&lt;/em&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;ruby-development-kit-devkit&quot;&gt;2. Ruby Development Kit (DevKit)&lt;/h2&gt;
+&lt;p&gt;Langkah berikutnya adalah mengunduh Ruby Development Kit di halaman website yang sama, yaitu &lt;code&gt;http://rubyinstaller.org/downloads/&lt;/code&gt;. Sama seperti disampaikan sebelumnya, sesuaikan dengan arsitektur prosesor pada PC anda.
+&lt;img src=&quot;/img/ruby-devkit-links-01.jpg&quot; alt=&quot;ruby-devkit-links-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jalankan installer tersebut dan arahkan ke lokasi tujuan &lt;em&gt;extract&lt;/em&gt; yang mudah untuk ditemukan, seperti &lt;code&gt;C:\RubyDevKit&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Kemudian, lakukan proses berikut menggunakan &lt;em&gt;command prompt&lt;/em&gt; untuk jalankan perintah berikut:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd C:\RubyDevKit
+ruby dk.rb init
+ruby dk.rb install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dari proses perintah di atas, setidaknya hasilnya kurang lebih seperti gambar di bawah ini:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ruby-devkit-initialize-02.jpg&quot; alt=&quot;ruby-devkit-initialize-02.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll&quot;&gt;3. Jekyll&lt;/h2&gt;
+&lt;p&gt;Langkah berikut ini adalah memasang program jekyll pada PC anda, hanya saja anda tidak perlu mengunduhnya pada website tertentu, cukup menggunakan salah satu aplikasi bawaan ruby yaitu &lt;a href=&quot;http://en.wikipedia.org/wiki/RubyGems&quot; title=&quot;RubyGems&quot;&gt;RubyGem&lt;/a&gt; (perintah: &lt;code&gt;gem&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Dengan menggunakan &lt;em&gt;command prompt&lt;/em&gt;, silakan jalankan perintah berikut:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Proses akan memakan waktu cukup lama, tergantung dari kecepatan koneksi internet anda. Proses mengunduh dan memasang jekyll kurang lebih seperti ini:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ruby-gem-install-jekyll-01.jpg&quot; alt=&quot;ruby-gem-install-jekyll-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rouge&quot;&gt;4. Rouge&lt;/h2&gt;
+&lt;p&gt;Kemudian, dalam menggunakan jekyll anda wajib menggunakan &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; title=&quot;Markdown project&quot;&gt;Markdown&lt;/a&gt; untuk mempercantik tulisan anda. Tentunya akan banyak kode-kode program yang akan anda selipkan nantinya. Karena itu, rouge memiliki peran sebagai &lt;em&gt;beautifier&lt;/em&gt; kode-kode anda (&lt;em&gt;syntax highlighter&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Sebenarnya, secara &lt;em&gt;default&lt;/em&gt; jekyll menggunakan &lt;strong&gt;&lt;a href=&quot;http://pygments.org/&quot; title=&quot;Pygments&quot;&gt;Pygments&lt;/a&gt;&lt;/strong&gt; sebagai &lt;em&gt;syntax highlighter&lt;/em&gt;. Hanya saja untuk menggunakan Pygments, anda perlu memasang &lt;strong&gt;&lt;a href=&quot;https://www.python.org/&quot; title=&quot;Python&quot;&gt;Python&lt;/a&gt;&lt;/strong&gt; agar dapat menggunakannya. Aku pikir itu saat ini Rouge yang paling cocok digunakan karena tidak memerlukan berbagai macam dependensi seperti halnya Pygments.&lt;/p&gt;
+
+&lt;p&gt;Untuk memasang Rouge, lakukan langkah seperti memasang jekyll, yaitu dengan menggunakan &lt;code&gt;gem&lt;/code&gt; pada &lt;em&gt;command prompt&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install rouge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Catatan&lt;/strong&gt;: Nantinya setelah sebuah &lt;em&gt;project&lt;/em&gt; dibuat, anda cukup mengubah/menambahkan satu entri pada file &lt;code&gt;&amp;lt;project-name&amp;gt;\_config.yml&lt;/code&gt;, yaitu pada entri:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;highlighter: rouge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;wdm&quot;&gt;5. WDM&lt;/h2&gt;
+&lt;p&gt;Secara default, jekyll memiliki fitur &lt;em&gt;auto-regeneration&lt;/em&gt; yang secara otomatis memantau (&lt;em&gt;watch&lt;/em&gt;) perubahan &lt;em&gt;source&lt;/em&gt; pada jekyll dan kemudian &lt;em&gt;re-build&lt;/em&gt; situs (site) anda.&lt;/p&gt;
+
+&lt;p&gt;Namun pada Windows, anda perlu memasang satu alat tambahan yaitu &lt;code&gt;wdm&lt;/code&gt;. Dengan menggunakan perintah berikut:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install wdm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;run&quot;&gt;6. Run!&lt;/h2&gt;
+&lt;p&gt;Akhirnya, kita sudah berada di langkah terakhir, yaitu mencoba membuat dan menjalankan &lt;em&gt;website&lt;/em&gt; menggunakan jekyll.&lt;/p&gt;
+
+&lt;p&gt;Anggap saja anda memiliki sebuah direktori khusus untuk membuat project anda dengan jekyll. Di sini saya  menyatakan direktori project adalah &lt;code&gt;D:\project\website&lt;/code&gt;. Silakan anda sesuaikan sesuai kebutuhan anda.&lt;/p&gt;
+
+&lt;p&gt;Pada &lt;em&gt;command prompt&lt;/em&gt; anda, lakukan perintah berikut:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;D:
+cd D:\project\website
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cmd-change-dir-01.jpg&quot; alt=&quot;cmd-change-dir-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kemudian, buatlah satu &lt;em&gt;project&lt;/em&gt; dengan nama &lt;code&gt;myblog&lt;/code&gt; dengan menggunakan jekyll pada &lt;em&gt;command prompt&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jekyll new myblog
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cmd-create-new-project-02.jpg&quot; alt=&quot;cmd-create-new-project-02.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Maka akan ada sebuah direktori dengan nama &lt;code&gt;myblog&lt;/code&gt; di dalam &lt;em&gt;root&lt;/em&gt; direktori &lt;em&gt;project&lt;/em&gt; anda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cmd-listing-dir-03.jpg&quot; alt=&quot;cmd-listing-dir-03.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kemudian, masuklah ke dalam direktori &lt;code&gt;myblog&lt;/code&gt;, dan jalankan project tersebut menggunakan jekyll dengan perintah:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd myblog
+jekyll serve
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cmd-jekyll-serve-04.jpg&quot; alt=&quot;cmd-jekyll-serve-04.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pada gambar:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Destination&lt;/code&gt; adalah letak &lt;em&gt;file-file&lt;/em&gt; HTML (statik) yang telah di-&lt;em&gt;generate&lt;/em&gt; otomatis oleh jekyll. Isi pada direktori inilah yang perlu anda unggah ke server hosting anda.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Server address&lt;/code&gt; inilah URL lingkungan &lt;em&gt;development&lt;/em&gt; anda, seperti gambar di bawah:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/cmd-jekyll-run-on-localhost-05.jpg&quot; alt=&quot;cmd-jekyll-run-on-localhost-05.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;post&quot;&gt;7. Post&lt;/h2&gt;
+&lt;p&gt;Berikut ini mungkin hanya sebagai tambahan saja, bagaimana membuat sebuah &lt;em&gt;post&lt;/em&gt; pada jekyll. Yang anda perlukan hanyalah pengetahuan tentang sintaks pada Markdown dan format penamaan sebuah &lt;em&gt;file post&lt;/em&gt;. (Untuk mengetahui bagaimana sintaks pada Markdown, silakan periksa pada bagian &lt;a href=&quot;#referensi&quot;&gt;Referensi&lt;/a&gt; di bawah.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sebagai contoh:&lt;/strong&gt; Gunakan &lt;em&gt;text editor&lt;/em&gt; kesayangan anda, kemudian buatlah tampak seperti di bawah ini:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+layout: post
+title:  &quot;Post Pertama&quot;
+date:   2014-11-24 13:50:00 +0800
+categories: Blog
+tags: jekyll hello-world
+---
+Ini adalah halaman *post* saya yang pertama menggunakan **jekyll**.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Simpanlah file tersebut di direktori &lt;code&gt;myblog\_posts&lt;/code&gt; dengan format file &lt;code&gt;tahun-bulan-tanggal-judul.markdown&lt;/code&gt; seperti:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;2014-11-24-post-pertama.markdown&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Kemudian, silakan &lt;em&gt;refresh&lt;/em&gt; halaman blog anda, secara otomatis jekyll akan meng-&lt;em&gt;update&lt;/em&gt; setiap perubahan pada &lt;em&gt;file-file project&lt;/em&gt; anda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/jekyll-first-post-01.jpg&quot; alt=&quot;jekyll-first-post-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/jekyll-first-post-02.jpg&quot; alt=&quot;jekyll-first-post-02.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;penutup&quot;&gt;Penutup&lt;/h2&gt;
+&lt;p&gt;Demikian yang bisa aku bagi saat ini, sila berikan komentar apapun terkait &lt;em&gt;post&lt;/em&gt; ini.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-namereferensiareferensi&quot;&gt;&lt;a name=&quot;referensi&quot;&gt;&lt;/a&gt;Referensi&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyll-windows.juthilo.com/&quot; title=&quot;Run Jekyll on Windows&quot;&gt;Run Jekyll on Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://assemble.io/docs/Cheatsheet-Markdown.html&quot; title=&quot;Markdown Cheatsheet&quot;&gt;Markdown Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Hello World</title>
-   <link href="http://janglapuk.github.io/blog/2014/11/22-hello-world.html"/>
+   <link href="https://janglapuk.github.io/blog/2014/11/22-hello-world.html"/>
    <updated>2014-11-22T12:19:00+08:00</updated>
-   <id>http://janglapuk.github.io/blog/2014/11/hello-world</id>
+   <id>https://janglapuk.github.io/blog/2014/11/hello-world</id>
    <content type="html">&lt;p&gt;Lagi-lagi suatu kata ajaib bagi seseorang blogger &lt;s&gt;aneh&lt;/s&gt; mengungkapkan betapa basinya menulis kata permulaan seperti &lt;em&gt;Hello World&lt;/em&gt; hanya untuk sebuah &lt;em&gt;posting&lt;/em&gt;-an. &lt;code&gt;:P&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Untuk nge-blog kali ini, aku benar-benar wajib tahu sintaks &lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Markdown&quot;&gt;markdown&lt;/a&gt;&lt;/strong&gt; yang selama ini &lt;s&gt;aku tidak pedulikan&lt;/s&gt; kurang tertarik aku gunakan, supaya isi blog ini tidak hanya diisi tulisan &lt;em&gt;unformatted style&lt;/em&gt; yang basi, yang bisa membuat mata ini lebih &lt;em&gt;minus&lt;/em&gt; (halah!).&lt;/p&gt;
