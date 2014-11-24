@@ -4,7 +4,7 @@
  <title>janglapuk</title>
  <link href="http://janglapuk.github.io/" rel="self"/>
  <link href="http://janglapuk.github.io"/>
- <updated>2014-11-23T12:26:21+08:00</updated>
+ <updated>2014-11-24T13:22:12+08:00</updated>
  <id>http://janglapuk.github.io</id>
  <author>
    <name>Abi Jafar</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Hello World</title>
-   <link href="http://janglapuk.github.io/blog/2014/11/22/hello-world"/>
+   <link href="http://janglapuk.github.io/blog/2014/11/22-hello-world.html"/>
    <updated>2014-11-22T12:19:00+08:00</updated>
-   <id>http://janglapuk.github.io/blog/2014/11/22/hello-world</id>
+   <id>http://janglapuk.github.io/blog/2014/11/hello-world</id>
    <content type="html">&lt;p&gt;Lagi-lagi suatu kata ajaib bagi seseorang blogger &lt;s&gt;aneh&lt;/s&gt; mengungkapkan betapa basinya menulis kata permulaan seperti &lt;em&gt;Hello World&lt;/em&gt; hanya untuk sebuah &lt;em&gt;posting&lt;/em&gt;-an. &lt;code&gt;:P&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Untuk nge-blog kali ini, aku benar-benar wajib tahu sintaks &lt;strong&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Markdown&quot;&gt;markdown&lt;/a&gt;&lt;/strong&gt; yang selama ini &lt;s&gt;aku tidak pedulikan&lt;/s&gt; kurang tertarik aku gunakan, supaya isi blog ini tidak hanya diisi tulisan &lt;em&gt;unformatted style&lt;/em&gt; yang basi, yang bisa membuat mata ini lebih &lt;em&gt;minus&lt;/em&gt; (halah!).&lt;/p&gt;

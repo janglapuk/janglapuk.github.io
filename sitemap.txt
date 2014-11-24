@@ -10,4 +10,4 @@ http://janglapuk.github.io/search.html
 http://janglapuk.github.io/sitemap.txt
 http://janglapuk.github.io/tags.html
 
-http://janglapuk.github.io/blog/2014/11/22/hello-world
+http://janglapuk.github.io/blog/2014/11/22-hello-world.html
